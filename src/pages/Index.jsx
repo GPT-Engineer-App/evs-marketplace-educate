@@ -8,7 +8,7 @@ const Index = () => {
         {/* Header Section */}
         <Box w="100%" textAlign="center" p={4} bg="teal.500" color="white">
           <Heading as="h1" size="2xl">
-            EV Marketplace
+            EV MARKETPLACE
           </Heading>
           <Text fontSize="lg">Your one-stop shop for electric vehicles and information</Text>
         </Box>
@@ -16,7 +16,7 @@ const Index = () => {
         {/* Introduction Section */}
         <Box w="100%" textAlign="center">
           <Heading as="h2" size="xl">
-            Welcome to the Future of Transportation
+            WELCOME TO THE FUTURE OF TRANSPORTATION
           </Heading>
           <Text fontSize="md" mt={4}>
             Explore our range of electric vehicles and learn more about the benefits of going electric.
@@ -26,7 +26,7 @@ const Index = () => {
         {/* EV Showcase Section */}
         <Box w="100%">
           <Heading as="h3" size="lg" mb={4}>
-            Our Electric Vehicles
+            OUR ELECTRIC VEHICLES
           </Heading>
           <HStack spacing={8} justify="center">
             <VStack>
@@ -56,7 +56,7 @@ const Index = () => {
         {/* Educational Section */}
         <Box w="100%">
           <Heading as="h3" size="lg" mb={4}>
-            Why Go Electric?
+            WHY GO ELECTRIC?
           </Heading>
           <VStack spacing={4} align="start">
             <HStack>
