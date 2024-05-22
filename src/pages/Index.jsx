@@ -6,7 +6,7 @@ const Index = () => {
     <Container maxW="container.xl" p={4}>
       <VStack spacing={8} divider={<StackDivider borderColor="gray.200" />}>
         {/* Header Section */}
-        <Box w="100%" textAlign="center" p={4} bg="teal.500" color="white">
+        <Box w="100%" textAlign="center" p={4} bg="brand.900" color="brand.500">
           <Heading as="h1" size="2xl">
             EV MARKETPLACE
           </Heading>
@@ -32,21 +32,21 @@ const Index = () => {
             <VStack>
               <Image src="https://images.unsplash.com/photo-1567168655494-190e0b7c5845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMGNhciUyMDF8ZW58MHx8fHwxNzE2NDE3OTA0fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Electric Car 1" boxSize="200px" />
               <Text>Model X</Text>
-              <Button leftIcon={<FaShoppingCart />} colorScheme="teal">
+              <Button leftIcon={<FaShoppingCart />} bg="brand.700" color="brand.500">
                 Buy Now
               </Button>
             </VStack>
             <VStack>
               <Image src="https://images.unsplash.com/photo-1567168655494-190e0b7c5845?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMGNhciUyMDJ8ZW58MHx8fHwxNzE2NDE3OTA0fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Electric Car 2" boxSize="200px" />
               <Text>Model Y</Text>
-              <Button leftIcon={<FaShoppingCart />} colorScheme="teal">
+              <Button leftIcon={<FaShoppingCart />} bg="brand.700" color="brand.500">
                 Buy Now
               </Button>
             </VStack>
             <VStack>
               <Image src="https://images.unsplash.com/photo-1491921125492-f0b9c835b699?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w1MDcxMzJ8MHwxfHNlYXJjaHwxfHxlbGVjdHJpYyUyMGNhciUyMDN8ZW58MHx8fHwxNzE2NDE3OTA1fDA&ixlib=rb-4.0.3&q=80&w=1080" alt="Electric Car 3" boxSize="200px" />
               <Text>Model Z</Text>
-              <Button leftIcon={<FaShoppingCart />} colorScheme="teal">
+              <Button leftIcon={<FaShoppingCart />} bg="brand.700" color="brand.500">
                 Buy Now
               </Button>
             </VStack>
@@ -60,22 +60,22 @@ const Index = () => {
           </Heading>
           <VStack spacing={4} align="start">
             <HStack>
-              <IconButton aria-label="Environment" icon={<FaInfoCircle />} size="lg" colorScheme="teal" />
+              <IconButton aria-label="Environment" icon={<FaInfoCircle />} size="lg" bg="brand.700" color="brand.500" />
               <Text>Electric vehicles produce zero emissions, helping to reduce your carbon footprint.</Text>
             </HStack>
             <HStack>
-              <IconButton aria-label="Savings" icon={<FaInfoCircle />} size="lg" colorScheme="teal" />
+              <IconButton aria-label="Savings" icon={<FaInfoCircle />} size="lg" bg="brand.700" color="brand.500" />
               <Text>Save money on fuel and maintenance costs over the lifetime of the vehicle.</Text>
             </HStack>
             <HStack>
-              <IconButton aria-label="Performance" icon={<FaInfoCircle />} size="lg" colorScheme="teal" />
+              <IconButton aria-label="Performance" icon={<FaInfoCircle />} size="lg" bg="brand.700" color="brand.500" />
               <Text>Experience instant torque and smooth acceleration with electric motors.</Text>
             </HStack>
           </VStack>
         </Box>
 
         {/* Footer Section */}
-        <Box w="100%" textAlign="center" p={4} bg="gray.100">
+        <Box w="100%" textAlign="center" p={4} bg="brand.600">
           <Text>&copy; 2023 EV Marketplace. All rights reserved.</Text>
         </Box>
       </VStack>
